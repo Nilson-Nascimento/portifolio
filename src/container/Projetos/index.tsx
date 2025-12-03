@@ -7,26 +7,12 @@ const Projetos = () => (
         <Titulo fontSize={16}>Projetos</Titulo>
         <List>
             <li><Projectos/></li>
-        </List>
-        <List>
             <li><Projectos/></li>
-        </List>
-        <List>
             <li><Projectos/></li>
-        </List>
-        <List>
             <li><Projectos/></li>
-        </List>
-        <List>
             <li><Projectos/></li>
-        </List>
-        <List>
             <li><Projectos/></li>
-        </List>
-        <List>
             <li><Projectos/></li>
-        </List>
-        <List>
             <li><Projectos/></li>
         </List>
     </section>

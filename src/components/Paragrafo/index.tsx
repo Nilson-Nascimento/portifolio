@@ -7,7 +7,7 @@ export type TituloProps = {
     tipo?: 'main' | 'notMain';
 }
 
-const Paragrafo = ({children, tipo = 'main'} : TituloProps) => (<P tipo={tipo}>{children}</P>
+const Paragrafo = ({children, tipo = 'main', fontSize} : TituloProps) => (<P fontSize={fontSize} tipo={tipo}>{children}</P>
 )
 
 export default Paragrafo;
