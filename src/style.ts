@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
         background-color: #121214;
         color: #FFFFFF;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        list-style: none;
     }
     body {
         padding-top: 80px;
