@@ -4,7 +4,7 @@ import { GithubSection } from "./style";
 
 const Sobre = () => (
     <section >
-        <Titulo fontSize={16}>Sobre Mim</Titulo>
+        <Titulo fontSize={16} >Sobre Mim</Titulo>
         <Paragrafo tipo='notMain'>
             Olá! Meu nome é Nilson Nascimento, sou desenvolvedor front-end com experiência em React, TypeScript e CSS-in-JS. Tenho paixão por criar interfaces de usuário intuitivas e responsivas.
         </Paragrafo>

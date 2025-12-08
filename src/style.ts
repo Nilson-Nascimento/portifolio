@@ -5,17 +5,19 @@ const GlobalStyle = createGlobalStyle`
     *{
         margin:0;
         padding:0;
-        background-color: #121214;
-        color: #FFFFFF;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         list-style: none;
-    }
-    body {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        }
 
-        @media (max-widtg: 768px){
-            padding-top: 16px;}
+        body {
+            padding-top: 80px;
+            padding-bottom: 80px;
+            background-color: ${(props) => props.theme.BackgroundColor};
+
+            @media (max-widtg:68px){
+                padding-top: 16px;
+            }
+        }
     }
 `
 export default GlobalStyle
@@ -33,4 +35,7 @@ export const Container = styled.div`
     @media (max-width: 768px){
         max-width:80%;
         display: block;
+
+
+    }
 `
